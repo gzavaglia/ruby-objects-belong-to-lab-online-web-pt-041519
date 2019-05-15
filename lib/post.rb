@@ -1,7 +1,8 @@
 require_relative "../lib/author.rb"
 class Post
-  attr_accessor :name
+  attr_accessor :title
   def initialize
-    @name
+    @title
+    Author.new
   end
 end #end class
