@@ -1,7 +1,7 @@
 require_relative "../lib/artist.rb"
 class Author
-  attr_accessor :author_name
+  attr_accessor :name
   def initialize
-    @author_name
+    @name
   end
 end #end class
