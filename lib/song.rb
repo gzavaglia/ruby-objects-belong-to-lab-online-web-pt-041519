@@ -1,5 +1,5 @@
 require_relative
-class Song
+class Song(title)
   attr_accessor :title
   attr_reader :artist
   # def artist=(Artist)
