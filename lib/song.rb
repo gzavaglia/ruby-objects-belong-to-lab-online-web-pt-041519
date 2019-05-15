@@ -1,5 +1,5 @@
 require_relative "../lib/artist.rb".
-class Song(title)
+class Song
   attr_accessor :title
   attr_reader :artist
   # def artist=(Artist)
